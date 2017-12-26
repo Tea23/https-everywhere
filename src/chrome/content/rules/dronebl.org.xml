@@ -1,0 +1,10 @@
+<ruleset name="DroneBL">
+        <target host="dronebl.org" />
+        <target host="www.dronebl.org" />
+
+        <rule from="^http:"
+                to="https:" />
+
+  <rule from="^https://(?:www\.)?dronebl\.org/"
+          to="https://dronebl.org/" />
+</ruleset>
